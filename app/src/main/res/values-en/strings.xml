@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">recovery</string>
+    <string name="nombre_de_usuario">username</string>
+    <string name="contrase_a">password</string>
+    <string name="crea_una_aqui">Crea una aqui!</string>
+    <string name="no_tienes_una_cuenta">"¿No tienes una cuenta?, "</string>
+    <string name="nombre">Nombre</string>
+    <string name="usuario">usuario</string>
+    <string name="confirmecontraseña">confirme contraseña</string>
+    <string name="buttom_text_create_account">UNETE</string>
+</resources>
