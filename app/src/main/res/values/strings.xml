@@ -7,7 +7,8 @@
     <string name="no_tienes_una_cuenta">"¿No tienes una cuenta?, "</string>
     <string name="nombre">Nombre</string>
     <string name="usuario">usuario</string>
-    <string name="contraseña">contraseña</string>
+    <string name="contraseña" translatable="false">contrasena</string>
     <string name="confirmecontraseña">confirme contraseña</string>
     <string name="buttom_text_create_account">UNETE</string>
+    <string name="title_crear_cuentaa">\"crear cuenta \"</string>
 </resources>
