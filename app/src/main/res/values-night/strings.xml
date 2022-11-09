@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carlos_vargas_cardview">Carlos Vargas</string>
+    <string name="hace_cardview">hace</string>
+    <string name="dias_cardview">4 dias</string>
+    <string name="me_gusta_cardview">10 me gusta</string>
+</resources>

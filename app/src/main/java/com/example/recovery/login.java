@@ -2,8 +2,11 @@ package com.example.recovery;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
 
 public class login extends AppCompatActivity {
 
@@ -13,7 +16,8 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login2);
     }
     public void goCreateAccount(View view){
-        System.out.println("----------> go to create account");
+        Intent intent= new Intent(this, CreateAccountActivity.class);
+        startActivity(intent);
 
     }
 }
