@@ -1,9 +1,11 @@
-package com.example.recovery;
+package view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+
+import com.example.recovery.R;
 
 public class CreateAccountActivity extends AppCompatActivity {
 

@@ -80,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/buttom_text"
                 android:layout_marginTop="@dimen/login_marginTop"
+                android:onClick="login"
 
                 />
             <RelativeLayout

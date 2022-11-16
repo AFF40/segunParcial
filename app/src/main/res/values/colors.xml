@@ -20,6 +20,7 @@
     <color name="textView_textColor">#FFFFFFFF</color>
     <color name="background_cardview">#32000000</color>
     <color name="textColor_White">#FFFFFF</color>
+    <color name="item_white">#FFFFFF</color>
 
 
 </resources>
