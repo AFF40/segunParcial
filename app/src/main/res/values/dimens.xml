@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="textView">14dp</dimen>
     <dimen name="editText_textSize">30sp</dimen>
     <dimen name="login_horizontalMargin">40dp</dimen>
     <dimen name="login_marginTop">20dp</dimen>
@@ -15,4 +16,13 @@
     <dimen name="height_bottom_navigation_view">70dp</dimen>
     <dimen name="margin_fab">20dp</dimen>
     <dimen name="padding_card">10dp</dimen>
+    <dimen name="height_image_detail">300dp</dimen>
+    <dimen name="textSize_username_image_detail">24sp</dimen>
+    <dimen name="marginTop_image_detail">10dp</dimen>
+    <dimen name="textSize_megusta_image_detail">14sp</dimen>
+    <dimen name="marginleft_megusta_image_detail">5dp</dimen>
+    <dimen name="height_divider_image_detail">2dp</dimen>
+    <dimen name="textSize_title_image_detail">16sp</dimen>
+    <dimen name="paddingTop_title_image_detail">30dp</dimen>
+    <dimen name="marginEnd_fab_image_detail">30dp</dimen>
 </resources>

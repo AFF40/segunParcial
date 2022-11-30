@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="textView_">14dp</dimen>
+    <dimen name="textView">14dp</dimen>
     <dimen name="textView_textSize">14dp</dimen>
     <dimen name="marginTop_create_account">35dp</dimen>
     <dimen name="height_cardview">250dp</dimen>
@@ -10,4 +10,13 @@
     <dimen name="height_bottom_navigation_view">30dp</dimen>
     <dimen name="margin_fab">30dp</dimen>
     <dimen name="padding_card">10dp</dimen>
+    <dimen name="height_image_detail">300dp</dimen>
+    <dimen name="textView_username_image_detail">20sp</dimen>
+    <dimen name="marginTop_image_detail">20dp</dimen>
+    <dimen name="textSize_megusta_image_detail">14dp</dimen>
+    <dimen name="marginleft_megusta_image_detail">5dp</dimen>
+    <dimen name="height_divider_image_detail">2dp</dimen>
+    <dimen name="textSize_title_image_detail">16sp</dimen>
+    <dimen name="paddingTop_title_image_detail">20dp</dimen>
+    <dimen name="marginEnd_fab_image_detail">30dp</dimen>
 </resources>

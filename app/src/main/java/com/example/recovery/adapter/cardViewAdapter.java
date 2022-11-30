@@ -2,6 +2,7 @@ package com.example.recovery.adapter;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,7 +49,17 @@ public class cardViewAdapter extends RecyclerView.Adapter <cardViewAdapter.CardV
         holder.usernameCardView.setText(image.getUsername());
         holder.cantidaddias.setText(image.getCantidadDias());
         holder.cantidadMegusta.setText(image.getCantidadMegusta());
-    }
+
+        //onclicklistener
+       holder.imageCardView.setOnClickListener(new View.OnClickListener(){
+           @Override
+        public void onClick (View view) {
+               Intent intent = new Intent(activity, ImageDetailActivity.class);
+               activity.startActivity(intent);
+            }
+        });
+        }
+
 
     @Override
     public int getItemCount() {

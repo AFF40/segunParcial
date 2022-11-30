@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package ="com.example.recovery">
-    <uses-permission android:name="android.permission.INTERNET"/>
+    package="com.example.recovery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recovery"
         tools:targetApi="31">
+
         <activity
             android:name="view.ContainerActivity"
             android:exported="false">
@@ -53,6 +56,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".login" />
+        </activity>
+        <activity
+            android:name="view.imageDetailActivity"
+            android:parentActivityName="view.ContainerActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="view.ContainerActivity" />
         </activity>
     </application>
 
