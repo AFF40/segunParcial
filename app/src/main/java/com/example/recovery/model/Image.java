@@ -1,12 +1,12 @@
 package com.example.recovery.model;
 
-public class image {
+public class Image {
     private String urlImage;
     private String username;
-    private String cantidadDias;
+       private String cantidadDias;
     private String cantidadMegusta;
 
-    public image(String urlImage, String username, String cantidadDias, String cantidadMegusta) {
+    public Image(String urlImage, String username, String cantidadDias, String cantidadMegusta) {
         this.setUrlImage(urlImage);
         this.setUsername(username);
         this.setCantidadDias(cantidadDias);

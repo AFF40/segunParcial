@@ -10,6 +10,7 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imageCardView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/salar_de_uyuni_1"
@@ -24,6 +25,7 @@
             android:background="@color/background_cardview"
             android:padding="@dimen/padding_cardview">
             <TextView
+                android:id="@+id/usernameCardView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/carlos_vargas_cardview"
@@ -43,6 +45,7 @@
                     android:textColor="@color/textColor_White"
                     ></TextView>
                 <TextView
+                    android:id="@+id/cantidaDiasCardView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/dias_cardview"
@@ -61,6 +64,7 @@
                     android:button="@drawable/checkbox_selector"
                     ></CheckBox>
                 <TextView
+                    android:id="@+id/cantidaMegustaCardView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/me_gusta_cardview"
