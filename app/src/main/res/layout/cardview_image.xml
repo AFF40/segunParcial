@@ -14,7 +14,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/salar_de_uyuni_1"
-            android:scaleType="centerCrop" >
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transitionname_imageCardView">
 
         </ImageView>
         <LinearLayout
