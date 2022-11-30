@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.recovery.R;
 import com.example.recovery.model.Image;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -43,7 +44,7 @@ public class cardViewAdapter extends RecyclerView.Adapter <cardViewAdapter.CardV
     @Override
     public void onBindViewHolder(@NonNull CardViewHolder holder, int position) {
         Image image = images.get(position);
-        //images
+        Picasso.get().load(image.getUrlImage()).into(holder.imageCardView);
         holder.usernameCardView.setText(image.getUsername());
         holder.cantidaddias.setText(image.getCantidadDias());
         holder.cantidadMegusta.setText(image.getCantidadMegusta());

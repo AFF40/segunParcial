@@ -96,16 +96,16 @@ public class HomeFragment extends Fragment {
     public ArrayList<Image> buildImage(){
         ArrayList<Image> images= new ArrayList<>();
 
-        images.add(new Image("","carlos valdivia","2 dias","1 me gusta"));
-        images.add(new Image("","luis perez","2 dias","11 me gusta"));
-        images.add(new Image("","gerardo sosa","2 dias","7 me gusta"));
-        images.add(new Image("","carlos quinto","2 dias","42 me gusta"));
-        images.add(new Image("","enrique gomez","2 dias","43 me gusta"));
-        images.add(new Image("","gerardo mamani","2 dias","6 me gusta"));
-        images.add(new Image("","laura garcia","2 dias","2 me gusta"));
-        images.add(new Image("","julian colque","2 dias","8 me gusta"));
-        images.add(new Image("","pedro torres","2 dias","5 me gusta"));
-        images.add(new Image("","andrea acosta","2 dias","33 me gusta"));
+        images.add(new Image("https://upload.wikimedia.org/wikipedia/commons/8/8c/Virgen_del_Socav%C3%B3n.jpg","carlos valdivia","2 dias","1 me gusta"));
+        images.add(new Image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/La_Glorieta_-_Sucre.jpg/1280px-La_Glorieta_-_Sucre.jpg","luis perez","2 dias","11 me gusta"));
+        images.add(new Image("https://www.piensageotermia.com/wp-content/uploads/2018/04/LagunaColorada_1_Bolivia-1024x683-1024x683.jpg","gerardo sosa","2 dias","7 me gusta"));
+        images.add(new Image("https://boliviaturistica.com/wp-content/uploads/2018/08/Fuerte-de-Samaipata-Bolivia-1024x535.jpg","carlos quinto","2 dias","42 me gusta"));
+        images.add(new Image("https://boliviatravelsite.com/Images/Attractionphotos/incachaca-004.jpg","enrique gomez","2 dias","43 me gusta"));
+        images.add(new Image("https://kintan.tv/wp-content/uploads/2022/04/monumento-del-cristo-de-la-concordia.jpg","gerardo mamani","2 dias","6 me gusta"));
+        images.add(new Image("https://www.laregion.bo/wp-content/uploads/2015/10/COROICO.jpg","laura garcia","2 dias","2 me gusta"));
+        images.add(new Image("https://www.adonde-y-cuando.es/site/images/illustration/lac-titicaca-copacabana_115.jpg","julian colque","2 dias","8 me gusta"));
+        images.add(new Image("https://i.ytimg.com/vi/OlmPlTIvU8U/maxresdefault.jpg","pedro torres","2 dias","5 me gusta"));
+        images.add(new Image("https://s1.dmcdn.net/v/RP1xx1VtHnyCXz6zX/x720","andrea acosta","2 dias","33 me gusta"));
 
         return images;
     }
